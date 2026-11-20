@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "antfu.pnpm-catalog-lens",
+    "bradlc.vscode-tailwindcss",
+    "oxc.oxc-vscode",
+    "redhat.vscode-yaml",
+    "editorconfig.editorconfig"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/.turbo/**": true,
+    "**/.tanstack/**": true,
+    "**/route-tree.gen.ts": true
+  },
+  "files.readonlyInclude": {
+    "pnpm-lock.yaml": true,
+    "**/route-tree.gen.ts": true
+  },
+
+  // oxc
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "oxc.disableNestedConfig": true,
+  "oxc.fmt.disableNestedConfig": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit"
+  },
+
+  // x18n
+  "x18n.displayLocale": "zh-CN",
+  "x18n.annotationInPlace": true,
+
+  // tailwindcss
+  "tailwindCSS.classFunctions": ["cn", "cva", "clsx"],
+  "tailwindCSS.classAttributes": ["class", "className", "classNames"],
+  "unocss.disable": true,
+
+  "oxc.fixKind": "all"
+}
