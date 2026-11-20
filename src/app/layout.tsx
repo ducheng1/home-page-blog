@@ -2,6 +2,7 @@ import '@/assets/styles/font.css'
 import '@/assets/styles/shadcn.css'
 import '@/assets/styles/tailwind.css'
 import { ThemeProvider } from '@/components/theme-provider'
+import { Layout } from '@/layout'
 
 export default function RootLayout({
   children,
@@ -11,7 +12,9 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning={true}>
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Layout>{children}</Layout>
+        </ThemeProvider>
       </body>
     </html>
   )
